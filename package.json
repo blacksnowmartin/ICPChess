@@ -4,10 +4,10 @@
     "replica_start": "dfx start --background",
     "replica_stop": "dfx stop",
     "canister_deploy_local": "dfx deploy parking_reservation_ICP",
-    "canister_deploy_mainnet": "dfx deploy --network ic parking_reservation_ICP",
-    "canister_uninstall": "dfx canister uninstall-code parking_reservation_ICP",
-    "canister_call_get_message": "dfx canister call parking_reservation_ICP getMessage",
-    "canister_call_set_message": "dfx canister call parking_reservation_ICP setMessage '(\"Hello world!\")'"
+    "canister_deploy_mainnet": "dfx deploy --network ic ICPChess",
+    "canister_uninstall": "dfx canister uninstall-code ICPChess",
+    "canister_call_get_message": "dfx canister call ICPChess getMessage",
+    "canister_call_set_message": "dfx canister call ICPChess setMessage '(\"Hello world!\")'"
   },
   "dependencies": {
     "azle": "0.17.1",
