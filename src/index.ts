@@ -69,6 +69,10 @@ export function endGame(gameId: string, winner: Principal): string {
     game.isFinished = true;
     game.winner = winner;
     gameStorage.insert(gameId, game);
+    if (game.winner != Principal.Null) {
+        // If there is a winner, transfer the stake amount to the winner
+        ic.transfer(game.stakeAmount, game.winner);
+    }
     return "Game ended successfully.";
 }
 
