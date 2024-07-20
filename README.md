@@ -8,4 +8,6 @@ This project implements a TypeScript smart contract for staking Internet Compute
 ### Features:
 Stake ICP tokens to participate in the online chess game. Withdraw staked ICP tokens at any time. Play chess games with another player and determine the winner. Automatically award the entire staked amount to the winner of the game. This project serves as a demonstration of how smart contracts can be used to facilitate fair and secure online gaming experiences on the Internet Computer blockchain.
 
+Inspired by Chess.com
+
 ## Blacksnow Martin 2024©
